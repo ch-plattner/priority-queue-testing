@@ -1,7 +1,7 @@
 CC 		=	gcc
 FLAGS 	=	-Wall -g -std=gnu99 -O4
 
-all: lazy eager dumb trace-tools des-converter
+all: lazy eager dumb trace-tools
 
 lazy: memory_management_lazy.c memory_management_lazy.h
 	$(CC) $(FLAGS) -c memory_management_lazy.c -o memory_management_lazy.o
